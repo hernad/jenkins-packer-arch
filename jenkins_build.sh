@@ -6,6 +6,7 @@ if [ -f packer.zip ] ; then
   unzip packer.zip
 fi
 
-packer/packer build -only=virtualbox-iso arch-template.json
+
+packer/packer-x86_64 build -only=virtualbox-iso arch-template.json
 
 
