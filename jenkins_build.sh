@@ -9,5 +9,5 @@ fi
 chmod +x packer
 ./packer build -only=virtualbox-iso arch-template.json
 
-mv output/packer_arch_virtualbox.box arch_$(date +"%Y-%d-%m")_x86_64.box
+mv output/packer_arch_virtualbox.box arch_$(date +"%Y-%d-%m")_i386.box
 
