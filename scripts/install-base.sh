@@ -11,7 +11,7 @@ fi
 
 FQDN='vagrant-arch.vagrantup.com'
 KEYMAP='us'
-LANGUAGE='en_US.UTF-8'
+LANGUAGE='bs_BA.UTF-8'
 PASSWORD=$(/usr/bin/openssl passwd -crypt 'vagrant')
 TIMEZONE='UTC'
 
