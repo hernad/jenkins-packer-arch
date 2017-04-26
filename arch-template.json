@@ -4,8 +4,8 @@
         "iso_checksum_url": "https://mirrors.kernel.org/archlinux/iso/2017.04.01/sha1sums.txt",
         "iso_checksum_type": "sha1",
         "ssh_timeout": "20m",
-        "country": "US",
-        "headless": "false"
+        "country": "BA",
+        "headless": "true"
     },
     "builders": [
         {
